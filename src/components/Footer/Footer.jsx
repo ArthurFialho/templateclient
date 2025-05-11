@@ -43,19 +43,75 @@ const Footer = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div>
                   <ul className="space-y-2">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact us</li>
-                    <li>Privacy Policy</li>
+                    <li>
+                      <a
+                        href=""
+                        className="transition duration-300 hover:text-gray-300 hover:translate-x-1 inline-block"
+                      >
+                        Home
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        className="transition duration-300 hover:text-gray-300 hover:translate-x-1 inline-block"
+                      >
+                        About
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        className="transition duration-300 hover:text-gray-300 hover:translate-x-1 inline-block"
+                      >
+                        Contact us
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        className="transition duration-300 hover:text-gray-300 hover:translate-x-1 inline-block"
+                      >
+                        Privacy Policy
+                      </a>
+                    </li>
                   </ul>
                 </div>
 
                 <div>
                   <ul className="space-y-2">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact us</li>
-                    <li>Privacy Policy</li>
+                    <li>
+                      <a
+                        href=""
+                        className="transition duration-300 hover:text-gray-300 hover:translate-x-1 inline-block"
+                      >
+                        Home
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        className="transition duration-300 hover:text-gray-300 hover:translate-x-1 inline-block"
+                      >
+                        About
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        className="transition duration-300 hover:text-gray-300 hover:translate-x-1 inline-block"
+                      >
+                        Contact us
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        className="transition duration-300 hover:text-gray-300 hover:translate-x-1 inline-block"
+                      >
+                        Privacy Policy
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>

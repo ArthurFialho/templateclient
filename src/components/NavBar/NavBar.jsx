@@ -3,6 +3,7 @@ import { SlEarphones } from "react-icons/sl";
 import { UpdateFollower } from "react-mouse-follower";
 import { motion } from "framer-motion";
 
+import "/src/index.css";
 const NavBarMenu = [
   {
     id: 1,
@@ -42,12 +43,22 @@ const NavBar = () => {
           className="container flex justify-between items-center"
         >
           {/* logo */}
-          <div>
-            <a href="#" className="text-xl font-bold uppercase">
-              Arthur /{" "}
-              <span className="font-extralight text-white/70">Fialho</span>
-            </a>
-          </div>
+          <UpdateFollower
+            mouseOptions={{
+              backgroundColor: "fff",
+              zIndex: 9999,
+              followSpeed: 0.5,
+              mixBlendMode: "difference",
+              scale: 4,
+            }}
+          >
+            <div>
+              <a href="#" className="text-xl font-extrabold uppercase animated">
+                Arthur /{" "}
+                <span className="font-extralight text-white/80 ">Fialho</span>
+              </a>
+            </div>
+          </UpdateFollower>
           {/* menu */}
           <div className="hidden md:block">
             <ul className="flex items-center gap-4">

@@ -77,7 +77,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className="bg-brandDark text-white font-varela">
+      <section className="bg-brandDark text-white font-varela pt-5">
         <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[700px]">
           {/* {brand info} */}
           <div className="flex flex-col justify-center py-14 md:py-0 xl:max-w-[500px]">

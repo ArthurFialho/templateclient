@@ -3,3 +3,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.animated {
+  background: linear-gradient(to right, #ccc 50%, #ff5858 50%, #cc2e5d);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s ease-out;
+}
+
+.animated:hover {
+  background-position: -100%;
+}
